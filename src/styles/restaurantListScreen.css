@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Shabnam-Bold";
+    src: url("../fonts/WEB/Shabnam-Bold.eot");
+    src:
+            url("../fonts/WEB/Shabnam-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "Shabnam";
+    src: url("../fonts/WEB/Shabnam.eot");
+    src:
+            url("../fonts/WEB/Shabnam.woff") format("woff");
+}
+
+.main{
+    font-family: "Shabnam";
+}
+
+#RLH{
+    margin-top:-0.6rem;
+}
+#resNameNumdiv{
+    width: 100%;
+    height: 5rem;
+    border-bottom-color: #9b9b9b;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 0.5rem;
+}
+#resNameNum{
+    direction: rtl;
+    /*border-bottom-width: 1px;*/
+    /*border-bottom-color: #9b9b9b;*/
+}
+#address{
+    height: 5rem;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+}
+#restauranrSearch{
+    margin-left: 58%;
+    height: 3rem;
+    width: 40%;
+    background-color: #fafafa;
+    border: .05rem solid #e2e2e2;
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#searchicon{
+    color: #6c6c6c;
+    margin-right: 0.5rem;
+}
+#restauranrSearchinput{
+    /*float: right;*/
+    margin-right: 0.5rem;
+    background-color: #fafafa;
+    border-width: 0;
+    height: 2.5rem;
+    width: 80%;
+    text-align: right;
+    font-size: 16px;
+    font-family: Shabnam;
+}
+#restauranrSearchinput:focus{
+    outline: none !important;
+    border:0px solid white;
+    box-shadow: 0 0 0px white;
+}
+#mainDiv{
+    width: 100rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: #fafafa;
+    padding-top: 4rem;
+    margin-top: 2rem;
+
+}
+
+#filterdiv{
+    width: 14%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    background-color: white;
+}
+#filterdivpdiv{
+    width: 100%;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#filterdivpdiv p{
+    font-size: 11px;
+    color: #8d8d8d;
+    margin-right: 0.5rem;
+}
+
+#searchCategoryDiv{
+    height: 2.5rem;
+    width: 90%;
+    background-color: #fafafa;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.2rem;
+    border-color: #e2e2e2;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#categorySearchinput{
+    margin-right: 0.5rem;
+    background-color: #fafafa;
+    border-width: 0;
+    height: 2.5rem;
+    width: 95%;
+    text-align: right;
+    font-size: 16px;
+    font-family: Shabnam;
+}
+
+#categorySearchinput:focus{
+    outline: none !important;
+    border:0px solid white;
+    box-shadow: 0 0 0px white;
+}

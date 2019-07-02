@@ -1,0 +1,52 @@
+.signuploginguid{
+    width: 100%;
+    height: 4rem;
+    border-image: linear-gradient(270deg,#8b00af,#d40062,#ff0613) 1;
+    border-width: 0 0 .2rem;
+    border-style: solid;
+
+}
+.signuplogin{
+    width: 14%;
+    height: 3.5rem;
+    float: right;
+    margin-right: 2rem;
+    padding-top: 1.3rem;
+
+}
+.login{
+    width: 49%;
+    height: 50%;
+    float: right;
+    border-left-width:0.15rem;
+    border-left-color: #cbcbcb;
+    border-left-style: solid;
+    text-align: center;
+    font-size: large;
+    color: #4a4a4a;
+}
+#login:hover{
+    color: red;
+}
+.signup{
+    width: 49%;
+    height: 50%;
+    float: right;
+    text-align: center;
+    font-size: large;
+    color: #4a4a4a;
+}
+#signup:hover{
+    color: red;
+}
+.guid{
+    width: 7%;
+    height: 3.5rem;
+    float: right;
+    padding-top: 1.3rem;
+    font-size: large;
+    color: #4a4a4a;
+}
+#guid:hover{
+    color: red;
+}
