@@ -28,6 +28,7 @@
 }
 #resNameNum{
     direction: rtl;
+    font-size: x-large;
     /*border-bottom-width: 1px;*/
     /*border-bottom-color: #9b9b9b;*/
 }
@@ -70,10 +71,11 @@
     box-shadow: 0 0 0px white;
 }
 #mainDiv{
-    width: 100rem;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 3%;
     background-color: #fafafa;
     padding-top: 4rem;
     margin-top: 2rem;
@@ -138,3 +140,199 @@
     border:0px solid white;
     box-shadow: 0 0 0px white;
 }
+#border{
+    width: 100%;
+    height: 0.15rem;
+    background-color: #c6c6c6;
+}
+.selectedCategoryDiv{
+    width: 100%;
+    height: 3rem;
+    border-bottom-color: #EEEEEE;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 0;
+}
+.selectedCategoryDiv:hover{
+    background-color:#EEEEEE;
+    border-bottom-color: #cbcbcb;
+    width: 100%;
+    height: 3rem;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 0;
+}
+.selectedCategoryDiv p{
+    font-family: Shabnam;
+}
+#moreDiv{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+#moreDiv p{
+    color: #d40062;
+}
+#restaurantdiv{
+    width: 80%;
+}
+#openRestaurantdiv{
+    /*display: flex;*/
+    /*flex-direction: row-reverse;*/
+    direction: rtl;
+}
+.openRestaurant{
+    width: 85%;
+    /*background-color: #d40062;*/
+}
+
+.forGriddiv{
+    width: 100%;
+    height: 19rem;
+}
+.forthdiv{
+    background-color: #ffffff;
+    width: 85%;
+    height: 17rem;
+    box-shadow: 1px 1px 1px 1px #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forthdiv1{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.forthdivimg{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.forthdivrest{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+.forthdiv2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+.forthdiv:hover{
+    box-shadow: 5px 5px 5px 5px #EEEEEE;
+}
+.forthdiv img{
+    box-shadow: 2px 2px 2px 2px #EEEEEE;
+    margin-top: 3.5%;
+}
+.forthdiv h4{
+    margin-bottom: 1px;
+}
+.forthdiv p{
+    font-size: 12px;
+    margin-top: 0;
+}
+.forthdivdiv{
+    width: 45%;
+    height: 2.3rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d40062;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.forthdiv:hover .forthdivdiv{
+    background-color: #FCE4EC;
+}
+.forthdivdiv p{
+    color: #d40062;
+    text-align: center;
+    margin-top: 10%;
+}
+.startsdiv{
+    width: 50%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.startsdiv i{
+    font-size: 17px;
+}
+.startsdiv hr{
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #9E9E9E;
+    width: 10%;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.rate{
+    color: #ffc300;
+    font-family: Shabnam-Bold;
+    font-size: x-large;
+}
+
+.yellow{
+    color: #ffc300;
+}
+#grey{
+    color:#9b9b9b;
+}
+
+#yellowgrey{
+    color:#9b9b9b;
+    /*TODO half grey half yello*/
+}
+
+.likenum{
+    color: #777777;
+}
+.cat{
+    color: black;
+}
+.add{
+    color:#777777;
+}
+#close{
+    direction: rtl;
+}
+
+.fifthdiv1{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+}
+
